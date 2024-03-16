@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'Adoptables',
+  name: 'adoptables',
   title: 'Adoptables',
   type: 'document',
 	fields:[
@@ -20,7 +20,7 @@ export default defineType({
 			type:'image',
 		}),
 		defineField({
-			name:'include',
+			name:'includes',
 			type:'array',
 			of:[
 				{type:'object',fields:[

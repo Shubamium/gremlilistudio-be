@@ -31,7 +31,7 @@ export default defineType({
 	],
 	preview:{
 		select:{
-			title:'data.category',
+			title:'section',
 		}
 	}
 })
